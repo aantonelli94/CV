@@ -1,0 +1,352 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+% character encoding
+\usepackage[utf8]{inputenc}  
+\usepackage{etaremune}                     % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+\usepackage[left=2cm, right=2cm, top=1.7cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{import}
+
+
+% personal data
+\name{Andrea}{Antonelli} 
+\address{Department of Physics and Astronomy, Johns Hopkins University, 3400 N. Charles Street}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{(+39) 345 6657781}      % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{andrea.antonelli@aei.mpg.de}                               % optional, remove / comment the line if not wanted
+%\homepage{Brésilienne (Visa travail UE)}                         % optional, remove / comment the line if not wanted
+\extrainfo{
+	{\color{blue}\href{https://github.com/aantonelli94}{My GitHub page.}}
+}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+	%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+	%-----       resume       ---------------------------------------------------------
+	\makecvtitle 
+	\vspace{-20pt}
+		Gravitational-wave astrophysicist: interested in gravity, astrophysics of black holes, and statistical analyses.
+
+	\section{Employment}
+
+\vspace{4pt}
+	
+	
+\begin{itemize}
+	\item{\cventry{01/2022 - }{Postdoctoral Fellow}{Johns Hopkins University}{Baltimore, Maryland, USA}{}{\vspace{3pt}
+			\begin{itemize}
+				\item Mentor: Prof. Dr. Berti, Emanuele.
+			\end{itemize}  
+	}}
+	
+	\end{itemize}
+\vspace{2pt}
+	
+	\section{Education}
+	
+	\vspace{4pt}
+	
+	\begin{itemize}
+		
+		\item{\cventry{09/2017 - 12/2021}{PhD student (affiliated to the University of Potsdam)}{Max Planck Institute for Gravitational Physics (Albert Einstein Institute)}{Potsdam, Germany}{}{\vspace{3pt}
+				\begin{itemize}
+					\item Thesis: "Accurate waveform models for gravitational-wave astrophysics: synergetic approaches from analytical relativity" (\emph{magna cum laude}). Supervisor: Prof. Buonanno, Alessandra.
+					\item 	Developed analytical and semi-analytical tools to improve templates used in LIGO-Virgo analyses.
+					\item Published findings in high-impact journals and presented them at several international conferences.
+				\end{itemize}  
+		}}
+		
+		\vspace{4pt}
+		
+		\item{\cventry{09/2016 - 07/2017}{MSc student}{University of Oxford}{Oxford, United Kingdom}{}{\vspace{3pt}
+				\begin{itemize}
+					\item Dissertation: "A journey into the dark sector" (on dark matter searches). Supervisor: Prof. Sarkar, Subir.
+					%\item  Attended courses in Theoretical and Mathematical Physics ranging from General Relativity to Group Theory.
+					%\item  Distinction for academic achievements.
+				\end{itemize}
+		}}
+		
+		\vspace{4pt}
+		
+		\item{\cventry{06/2015 - 07/2015}{UTRIP Fellow}{University of Tokyo}{Tokyo, Japan}{}{\vspace{3pt}
+				\begin{itemize}
+					\item Carried out research in Prof. Tachikawa's group in anomaly cancellations in string theories.
+					\item Posted final report of fellowship to the arXiv (e-Print: 1507.08642).
+					%\item  Obtained UTRIP fellowship, granted yearly to applicants across all scientific disciplines (acceptance rate $\sim$3.5\%).
+				\end{itemize}
+		}}
+		
+		\vspace{4pt}
+		
+		\item{\cventry{09/2013 - 07/2016}{BSc student}{King's College, London}{London, United Kingdom}{}{\vspace{3pt}
+				\begin{itemize}
+					\item  Thesis: "Theory and Phenomenology of cosmological Inflation". Supervisor: Prof. Mavromatos, Nick.
+					%\item Nikon prize for best third-year thesis in Physics in 2016.
+					%\item First-class honours.
+				\end{itemize}
+		}}
+	\end{itemize}
+	
+	\section{Publications}
+	
+	\vspace{1pt}
+
+
+	\vspace{5pt}
+	
+	Metrics for my publications can be found {\color{blue}\href{https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=a\%20a.antonelli.3&ui-citation-summary=true}{at the inspire database}}.
+	
+	\begin{etaremune}
+		\item "Noisy neighbours: inference biases from overlapping gravitational-wave sources", \underline{A. Antonelli}, O.Burke,  J.R.Gair, Mon.Not.Roy.Astron.Soc. 507 (2021). Code available 	{\color{blue}\href{https://github.com/aantonelli94/GWOP}{here}}.
+		\item "Gravitational spin-orbit and aligned spin1–spin2 couplings through third-subleading post-Newtonian order", \underline{A. Antonelli}, C. Kavanagh, M. Khalil, J. Steinhoff,
+		and J. Vines. Phys.Rev.D 102 (2020) 124024 [arXiv:2010.02018].
+	\item "Gravitational spin-orbit coupling through third-subleading post-Newtonian order: from first-order self-force to arbitrary mass ratios", \underline{A. Antonelli}, C. Kavanagh, M. Khalil, J. Steinhoff,
+and J. Vines, \textbf{Phys. Rev. Lett.} 125, 011103 (2020),
+arXiv:2003.11391 [gr-qc]. \textbf{Read about it} {\color{blue}\href{https://physics.aps.org/articles/v13/116}{here}}\textbf{ or}{\color{blue}\href{https://www.aei.mpg.de/527876/particle-physics-inspired-techniques-improve-the-accuracy-of-spin-effects-in-gravitational-waveform-models?c=26149}{ here}}.
+
+\vspace{5pt}
+	\item "Quasicircular inspirals and plunges from nonspinning effective-one-body Hamiltonians with gravitational self-force information", \underline{A. Antonelli}, M. van de Meent, A. Buonanno, J. Steinhoff, and J. Vines, Phys. Rev. D101, 024024 (2020),
+arXiv:1907.11597 [gr-qc]. 
+\vspace{5pt}%\\
+%\vspace{5pt}\\
+	\item "Energetics of two-body Hamiltonians in post-Minkowskian gravity", \underline{A. Antonelli}, A. Buonanno, J. Steinhoff, M. van de
+Meent, and J. Vines, Phys. Rev. D99, 104004 (2019),
+arXiv:1901.07102 [gr-qc].
+	\end{etaremune}	
+
+	
+%
+%\textbf{In preparation:}
+%			
+%			\vspace{5pt}
+%			\begin{enumerate}
+%		\vspace{5pt}
+%		\item "Estimating the impact of waveform modelling uncertainties on population inference", J. Gair, \underline{A. Antonelli}.
+%		\underline{Contributions}: implementation of formalism developed by Gair.
+%		\vspace{5pt}
+%		\item "LISA Waveform modelling whitepaper". 
+%		\underline{Contributions}: weak-field and effective-one-body  sections.
+%	\end{enumerate}	
+
+
+	\vspace{5pt}
+	
+\textbf{Others:}
+	
+	\vspace{4pt}
+	
+	\begin{itemize}
+		\item "Accurate waveform models for gravitational-wave astrophysics: synergistic approaches from analytical relativity", \underline{A. Antonelli}, PhD thesis.
+		\item "An Analysis of Anomaly Cancellation for Theories in D=10", \underline{A. Antonelli}, e-Print: 1507.08642 [hep-th]. (Final report for the UTRIP fellowship; invitation to submit it to the arXiv by Prof. Tachikawa).
+	\end{itemize}
+	\vspace{2pt}
+	
+	\section{Talks}
+	
+	\vspace{7pt}
+	
+	{\color{red}*} refers to invited talks.
+    \vspace{15pt}
+    
+\cventry{03/2021}{}{{\color{red}*}GW/Cosmo Journal Club}{Johns Hopkins University (virtual)}{}{\underline{Title}: Noisy neighbours: inference biases from overlapping gravitational-wave sources}
+\vspace{5pt}
+\cventry{02/2021}{}{{\color{red}*}HopBHAM Workshop}{University of Birmingham (virtual)}{}{\underline{Title}: Noisy neighbours: inference biases from overlapping gravitational-wave sources}
+\vspace{5pt}
+\cventry{12/2020}{}{{\color{red}*}Strong Gravity Seminars}{Perimeter Institute (virtual)}{}{\underline{Title}: The accurate characterisation of gravitational-wave signals:
+	lessons for ground-based and spaceborne detectors.}
+\vspace{5pt}
+\cventry{06/2020}{}{23rd Capra Meeting}{University of Texas, Austin (virtual)}{}{\underline{Title}: Gravitational spin-orbit coupling through third-subleading post-Newtonian order: from first-order self force to arbitrary mass ratios.}
+\vspace{5pt}
+\cventry{12/2019}{}{\textbf{30th Texas Symposium}}{University of Portsmouth, United Kingdom}{}{\underline{Title}: Quasi-circular inspirals and plunges from non-spinning effective-one-body Hamiltonians with gravitational self-force information.}
+\vspace{5pt}
+\cventry{07/2019}{}{GR22/Amaldi 13}{Universitat de Val\`encia, Spain}{}{\underline{Title}: Energetics Of Two-Body Hamiltonians In Post-Minkowskian Gravity.}
+\vspace{5pt}
+\cventry{06/2019}{}{22nd Capra Meeting}{CBPF, Rio de Janeiro, Brazil}{}{\underline{Title}: A non-spinning effective-one-body Hamiltonian for small-mass-ratio binaries.}
+\vspace{5pt}
+\cventry{06/2018}{}{21st Capra Meeting}{AEI, Potsdam, Germany}{}{\underline{Title}: Progress at the interface between Effective One Body and the Small Mass Ratio approximation.}
+
+\vspace{10pt}
+	
+	\section{Awards, Grants \& Fellowships}
+
+\vspace{2pt}
+
+\cventry{2019}{\textbf{Travel grant to attend 2019 DPG meeting.}}{}{}{}{}
+\vspace{2pt}
+
+\cventry{2017}{\textbf{Distinction for academic achievement at the University of Oxford}}{}{}{}{}
+\vspace{2pt}
+
+\cventry{2016}{\textbf{Nikon prize for best final year thesis in Physics at King's College, London}}{}{}{(mark: 96/100)}{}
+\vspace{2pt}
+
+\cventry{2015}{\textbf{UTRIP Fellowship}}{}{}{}{
+	Fellowship granted yearly to applicants across all scientific disciplines to carry out research at the University of Tokyo. Acceptance rate $\sim$3.5\%. I was granted one of only two fellowships ever awarded to a project in Mathematical Physics.}
+\vspace{2pt}
+
+\cventry{2013-2016}{\textbf{First Class honours at King's College, London}}{}{}{each year in my undergraduate studies}{}
+
+\vspace{1pt}
+	
+	\section{Skills}
+	
+	
+\vspace{1pt}
+
+I make an effort to include all the codes I develop for the projects I am involved in in my 	{\color{blue}\href{https://github.com/aantonelli94}{GitHub page}}.
+\newline
+
+Programming languages: Mathematica, Python.\\
+Scientific tools: GIT, LaTeX.\\
+Languages: Italian (native), English (proficient), Spanish (proficient), German (basic).
+
+\vspace{2pt}
+	
+	\section{Teaching}
+	
+	\vspace{1pt}
+	
+	\begin{itemize}
+		
+		\item TA for Prof. Harald Pfeiffer's \emph{GW astrophysics}, University of Potsdam, summer semester 2020.
+		
+		\vspace{3pt}
+		
+		\item TA for Prof. Martin Wilkens' \emph{General Relativity}, University of Potsdam, winter semester 2019/2020.
+		
+		\vspace{3pt}
+		
+		\item TA for the J\"urgen Ehlers Spring School, 2018.
+		
+	\end{itemize}
+	
+	
+	\section{Service and Memberships}
+	
+	\vspace{5pt}
+
+	\cventry{2020 - 2021}{Organizer}{Group meetings @ Albert Einstein Institute}{Potsdam, Germany}{}{}
+	\vspace{5pt}
+
+\cventry{2020}{Representative}{Diversity \& Inclusion}{Potsdam, Germany}{}{Tasks: coordinating a series of seminars on multiple facets of unconscious bias.}
+
+\vspace{5pt}
+
+
+	
+	\cventry{03/2019}{Organizer}{Symposium: "\emph{Extreme matter meets extreme gravity}"}{Munich, Germany}{}{Hosted by the German Physical Society (DPG). Symposium co-organized with 4 more PhD students.}
+	
+		\vspace{5pt}
+	
+		\cventry{2018 - 2020}{Founder}{LISA meetings @ Albert Einstein Institute}{Potsdam, Germany}{}{Proposed, developed and oversaw a program for monthly meetings broadly related to LISA topics, now a regular feature at the Albert Einstein Institute.}
+	\vspace{10pt}
+	
+	\cventry{}{}{Associate member of the LISA Consortium (2019-)}{}{}{}
+	\vspace{-10pt}
+	\cventry{}{}{Member of the LIGO Collaboration (2017-2021)}{}{}{ }
+	\vspace{-10pt}
+	\cventry{}{}{Referee:}{}{}{}
+	\vspace{-10pt}
+		\begin{itemize}
+		\item Physical Review D.
+	\end{itemize}
+
+\vspace{5pt}
+
+	\section{References}
+
+    \vspace{7pt}
+    
+\textbf{Prof. Dr. Alessandra Buonanno}\\
+alessandra.buonanno@aei.mpg.de\\
+Max Planck Institute for Gravitational Physics (Albert Einstein Institute)\\
+Am Mülhenberg 1, D-14476 Potsdam-Golm, Germany
+
+    \vspace{7pt}
+
+\textbf{Prof. Dr. Jonathan Gair}\\
+jonathan.gair@aei.mpg.de\\
+Max Planck Institute for Gravitational Physics (Albert Einstein Institute)\\
+Am Mülhenberg 1, D-14476 Potsdam-Golm, Germany
+
+    \vspace{7pt}
+
+\textbf{Prof. Dr. Emanuele Berti}\\
+berti@jhu.edu\\
+Department of Physics and Astronomy, Johns Hopkins University,\\
+3400 N. Charles Street, Baltimore, Maryland, 21218, USA
+    
+%        \vspace{7pt}
+%    
+%    \textbf{Dr. Jan Steinhoff}\\
+%    jan.steinhoff@aei.mpg.de\\
+%    Max Planck Institute for Gravitational Physics (Albert Einstein Institute)\\
+%    Am Mülhenberg 1, D-14476 Potsdam-Golm, Germany
+    
+        \vspace{7pt}
+    
+    \textbf{Dr. Justin Vines}\\
+    justin.vines@aei.mpg.de\\
+    Max Planck Institute for Gravitational Physics (Albert Einstein Institute)\\
+    Am Mülhenberg 1, D-14476 Potsdam-Golm, Germany
+    
+    % \vspace{10pt}
+    %More references available upon request.
+	% Publications from a BibTeX file without multibib
+	%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+	%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%	\nocite{*}
+%	\bibliographystyle{plain}
+%	\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+	
+	% Publications from a BibTeX file using the multibib package
+	%\section{Publications}
+	%\nocitebook{book1,book2}
+	%\bibliographystylebook{plain}
+	%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+	%\nocitemisc{misc1,misc2,misc3}
+	%\bibliographystylemisc{plain}
+	%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+	
+	%-----       letter       ---------------------------------------------------------
+
+	
+	
+\end{document}
+
+
+%% end of file `template.tex'.
